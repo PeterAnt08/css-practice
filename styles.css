@@ -1,0 +1,46 @@
+/* 🔹 Reset */
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+/* 🔹 Загальні стилі */
+body {
+  height: 100vh;
+}
+
+/* 🔹 Header */
+.header {
+  height: 30vh;
+  background-color: lightblue;
+  display: flex;
+  align-items: center;     /* вертикально по центру */
+  justify-content: flex-start; /* горизонтально зліва */
+}
+
+/* 🔹 Main */
+.main {
+  height: 40vh;
+  background-color: lightgreen;
+  display: flex;
+  align-items: center;     /* вертикально по центру */
+  justify-content: center; /* горизонтально по центру */
+}
+
+/* 🔹 Footer */
+.footer {
+  height: 30vh;
+  background-color: lightcoral;
+  display: flex;
+  align-items: center;     /* вертикально по центру */
+  justify-content: flex-end; /* горизонтально праворуч */
+}
+
+/* 🔹 Текст */
+.text {
+  font-size: 24px;  /* обовʼязковий розмір */
+  color: white;     /* обовʼязковий колір */
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
